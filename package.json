@@ -1,0 +1,30 @@
+{
+  "name": "github-monitor",
+  "version": "1.0.0",
+  "description": "A simple GitHub repository monitor that sends email notifications when repositories are updated",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "monitor",
+    "notification",
+    "email",
+    "webhook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "node-notifier": "^10.0.1",
+    "nodemailer": "^6.9.8"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

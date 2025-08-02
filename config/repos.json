@@ -1,0 +1,52 @@
+[
+  {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "watchCommits": true,
+    "watchReleases": true,
+    "branch": "main",
+    "description": "Microsoft Visual Studio Code"
+  },
+  {
+    "owner": "facebook",
+    "repo": "react",
+    "watchCommits": false,
+    "watchReleases": true,
+    "branch": "main",
+    "description": "React JavaScript library - only watch for releases"
+  },
+  {
+    "owner": "nodejs",
+    "repo": "node",
+    "watchCommits": false,
+    "watchReleases": true,
+    "branch": "main",
+    "description": "Node.js JavaScript runtime - only watch for releases"
+  },
+  {
+    "owner": "QwenLM",
+    "repo": "Qwen3",
+    "watchCommits": true,
+    "watchReleases": true,
+    "branch": "main",
+    "description": "Qwen3 Model updates" 
+  },
+  {
+    "owner": "ollama",
+    "repo": "ollama",
+    "watchCommits": false,
+    "watchReleases": true,
+    "branch": "main",
+    "description": "Ollama releases"     
+  },
+  {
+    "type": "organization",
+    "org": "deepseek-ai",
+    "watchNewRepos": true,
+    "watchCommits": false,
+    "watchReleases": false,
+    "excludeForks": true,
+    "branch": "main",
+    "description": "Monitor DeepSeek AI organization for new repositories and releases"
+  }
+]
